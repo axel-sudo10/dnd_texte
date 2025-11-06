@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Täuschungsbestien-Meuteanführer",
+    "size": "Groß",
+    "type": "Monstrosität",
+    "alignment": "rechtschaffen böse",
+    "armor_class": 15,
+    "hit_points": "136 (16d10 + 48)",
+    "speed": "12 m",
+    "strength": 20,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 6,
+    "wisdom": 14,
+    "charisma": 8,
+    "skills": {
+      "wahrnehmung": 5,
+      "heimlichkeit": 5
+    },
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 15",
+    "languages": "-",
+    "challenge_rating": 7,
+    "special_abilities": [
+      {
+        "name": "Vermeidung",
+        "desc": "Wenn die Täuschungsbestie einem Effekt ausgesetzt ist, der es ihr erlaubt, einen Rettungswurf zu machen, um nur halben Schaden zu erleiden, erleidet sie stattdessen keinen Schaden, wenn sie den Rettungswurf erfolgreich ablegt, und nur halben Schaden, wenn sie scheitert."
+      },
+      {
+        "name": "Verschiebung",
+        "desc": "Die Täuschungsbestie projiziert eine magische Illusion, die sie an einem Ort in der Nähe ihres tatsächlichen Standorts erscheinen lässt, was dazu führt, dass Angriffswürfe gegen sie im Nachteil sind. Wenn sie von einem Angriff getroffen wird, wird diese Eigenschaft bis zum Ende ihres nächsten Zuges unterbrochen. Diese Eigenschaft wird auch unterbrochen, während die Täuschungsbestie handlungsunfähig ist oder eine Geschwindigkeit von 0 hat."
+      },
+      {
+        "name": "Rudeltaktik",
+        "desc": "Die Täuschungsbestie hat Vorteil bei einem Angriffswurf gegen eine Kreatur, wenn mindestens einer der Verbündeten der Bestie innerhalb von 1,5 m von der Kreatur entfernt ist und der Verbündete nicht handlungsunfähig ist."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Die Täuschungsbestie macht zwei Angriffe mit ihren Tentakeln und einen mit ihrem bösartigen Schlund."
+      },
+      {
+        "name": "Tentakel",
+        "desc": "Nahkampfwaffenangriff: +8 zum Treffen, Reichweite 3 m, ein Ziel. Treffer: 9 (1d6 + 5) Wuchtschaden plus 4 (1d8) Stichschaden."
+      },
+      {
+        "name": "Bösartiger Schlund",
+        "desc": "Nahkampfwaffenangriff: +8 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 12 (2d6 + 5) Stichschaden."
+      }
+    ]
+  },
+  {
+    "name": "Täuschungsbestie",
+    "size": "Groß",
+    "type": "Monstrosität",
+    "alignment": "rechtschaffen böse",
+    "armor_class": 13,
+    "hit_points": "85 (10d10 + 30)",
+    "speed": "12 m",
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 6,
+    "wisdom": 12,
+    "charisma": 8,
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 11",
+    "languages": "-",
+    "challenge_rating": 3,
+    "special_abilities": [
+      {
+        "name": "Vermeidung",
+        "desc": "Wenn die Täuschungsbestie einem Effekt ausgesetzt ist, der es ihr erlaubt, einen Rettungswurf zu machen, um nur halben Schaden zu erleiden, erleidet sie stattdessen keinen Schaden, wenn sie den Rettungswurf erfolgreich ablegt, und nur halben Schaden, wenn sie scheitert."
+      },
+      {
+        "name": "Verschiebung",
+        "desc": "Die Täuschungsbestie projiziert eine magische Illusion, die sie an einem Ort in der Nähe ihres tatsächlichen Standorts erscheinen lässt, was dazu führt, dass Angriffswürfe gegen sie im Nachteil sind. Wenn sie von einem Angriff getroffen wird, wird diese Eigenschaft bis zum Ende ihres nächsten Zuges unterbrochen. Diese Eigenschaft wird auch unterbrochen, während die Täuschungsbestie handlungsunfähig ist oder eine Geschwindigkeit von 0 hat."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Die Täuschungsbestie macht zwei Angriffe mit ihren Tentakeln."
+      },
+      {
+        "name": "Tentakel",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 3 m, ein Ziel. Treffer: 7 (1d6 + 4) Wuchtschaden plus 3 (1d6) Stichschaden."
+      }
+    ]
+  }
+]

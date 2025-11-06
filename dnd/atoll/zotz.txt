@@ -1,0 +1,51 @@
+### Zotz - Die Blutleeren
+
+#### Informationen für die Spieler
+
+Der Stamm der Zotz ist unter den Einheimischen des Atolls gefürchtet. Man sagt, sie hinterlassen ihre Opfer vollkommen blutleer. Mehr ist über sie kaum bekannt, da nur wenige, die ihnen begegnen, zurückkehren, um davon zu berichten.
+
+---
+
+#### Der Vampirfluch
+
+Der Ursprung des Vampirismus liegt in den nekromantischen Experimenten eines mächtigen, uralten Zauberers, der nur als "Vater" bekannt ist. Er war eines der "Alten Drei" (Notiz: Hierzu wird eine eigene Datei erstellt). Der Fluch manifestiert sich wie folgt:
+
+*   **Sonnenlicht:** Vampire verbrennen bei direktem Kontakt mit Sonnenlicht.
+*   **Blutdurst & Degeneration:** Ein unersättlicher Durst nach Blut treibt alle Vampire an. Ohne regelmäßige Blutzufuhr sterben sie nicht, sondern degenerieren. In dieser "dunklen Evolution" verlieren sie ihren Verstand und ihre Intelligenz und werden zu bestialischen Kreaturen.
+*   **Wasser:** Im normalen Zustand können Vampire Wasser nicht überqueren, nicht einmal mit einem Boot. Im degenerierten, bestialischen Zustand erlangen sie diese Fähigkeit jedoch.
+*   **Heilung:** Das Trinken von Blut kann die Degeneration aufhalten oder umkehren. Tierblut stillt den Durst nur notdürftig, während das Blut von Humanoiden am nahrhaftesten ist und die volle geistige Klarheit wiederherstellt.
+
+*(Regel-Idee für den Spielleiter: Für jeden Tag, den ein Vampir kein Blut trinkt, erhält er eine Stufe "Erschöpfung". Bei 6 Stufen ist er vollständig degeneriert und wird zu einer unkontrollierbaren Bestie im Sinne eines NSC.)*
+
+---
+
+#### Geschichte und Motivation
+
+Die Nachkommen des "Vaters" bezeichnen ihn als ihren Schöpfer. Wer direkt von seinem Blut trinkt, wird zu einem "Wahren Vampir".
+
+Die derzeit einzige bekannte Wahre Vampirin auf dem Atoll ist die **Königin**. Sie herrscht über eine abgeschiedene Insel ganz im Norden und hat ein einziges Ziel: die Wiedererweckung ihres "Vaters". Dafür benötigt sie gewaltige Mengen an Blut, was ihre Präsenz auf dem Atoll und die Jagd der Zotz erklärt. Ihre eigene Unsterblichkeit ist an einen Altar gebunden, der stets mit frischem Blut gefüllt sein muss. Wird er geleert, degeneriert auch sie, ohne jedoch zu sterben.
+
+---
+
+#### Halbvampire
+
+Um die Schwäche des Wassers zu umgehen und ihre Ziele zu erreichen, hat die Königin verschiedene Halbvampire erschaffen:
+
+*   **Blutmenschen:** Dies sind Golems, die fast vollständig aus geronnenem (meist tierischem) Blut bestehen. Sie sind relativ intelligent und können auf nonverbale Weise kommunizieren, was sie zu idealen Kundschaftern macht. Gleichzeitig dienen sie als wandelnde Blutreserven für die anderen Vampire.
+*   **Ghul-Vampire:** Diese Kreaturen entstehen, wenn ein Ghul mit dem Blut der Königin gefüttert wird. Sie besitzen nur geringe Intelligenz, aber enorme Körperkraft. Sie werden primär zur Abschreckung eingesetzt und sind oft an ihrem fehlenden Unterkiefer zu erkennen, was ihnen ein besonders groteskes Aussehen verleiht.
+
+---
+
+#### Die Vampirbrut (Diener der Königin)
+
+Die Königin hat eine Reihe niederer Vampire, die "Vampirbrut", erschaffen, um ihre Befehle auszuführen:
+
+*   **Arbeiter:** Geistlose Drohnen, die unermüdlich am Ausbau der Festung und der Schreine der Königin arbeiten. Sie agieren als Erweiterung ihres Willens und führen simple, aber anstrengende Aufgaben aus.
+*   **Unterhalter:** Diese Vampire behalten einen Teil ihres früheren Charmes und ihrer Persönlichkeit. Sie werden zur Täuschung und dazu eingesetzt, neue Opfer in die Fänge der Königin zu locken oder einen makabren Hofstaat zu imitieren, dessen Kunst stets von Melancholie und Grauen durchzogen ist.
+*   **Alchemisten:** Die intelligenteste und mächtigste Form der Vampirbrut. Sie beherrschen eine Form der Blutmagie, ähnlich der eines Hexenmeisters, und sind für die Erschaffung der Halbvampire sowie für die Durchführung weiterer profaner Experimente im Namen der Königin verantwortlich.
+
+---
+
+#### Wahre Vampire
+
+Ein "Wahrer Vampir" kann nur werden, wer direkt vom Blut des "Vaters" trinkt. Auf dem Atoll ist die **Königin** die einzige ihrer Art. Sie ist unsterblich, solange ihr blutgefüllter Altar unversehrt bleibt.

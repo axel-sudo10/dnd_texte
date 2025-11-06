@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Zorath",
+    "size": "Mittelgroß",
+    "type": "Humanoider (Mensch)",
+    "alignment": "neutral gut",
+    "armor_class": 12,
+    "hit_points": "99 (18d8 + 18)",
+    "speed": "9 m",
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 20,
+    "wisdom": 16,
+    "charisma": 18,
+    "saving_throws": {
+      "intelligence": 9,
+      "wisdom": 7
+    },
+    "skills": {
+      "arkana": 9,
+      "geschichte": 9,
+      "einsicht": 7,
+      "überzeugen": 8
+    },
+    "senses": "passive Wahrnehmung 13",
+    "languages": "Gemeinsprache, Drakonisch, Elfisch, Ursprache",
+    "challenge_rating": 10,
+    "special_abilities": [
+      {
+        "name": "Schutz-Aura",
+        "desc": "Verbündete innerhalb von 9 Metern von Zorath haben Vorteil bei Rettungswürfen gegen Zauber und andere magische Effekte."
+      },
+      {
+        "name": "Zauberwirken",
+        "desc": "Zorath ist ein Zauberwirker der 18. Stufe. Seine Zauberfähigkeit ist Intelligenz (Zauberrettungswurf DC 17, +9 zum Treffen mit Zauberangriffen). Er hat die folgenden Zauber vorbereitet:\nZaubertricks (beliebig oft): Licht, Ausbessern, Botschaft, Prestidigitation\n1. Grad (4 Plätze): Sprachen verstehen, Magie entdecken, Identifizieren, Schild\n2. Grad (3 Plätze): Emotionen beruhigen, Person festhalten, Suggestion\n3. Grad (3 Plätze): Gegenzauber, Magie bannen, Senden\n4. Grad (3 Plätze): Verbannung, Dimensionstor, Herstellen\n5. Grad (3 Plätze): Erschaffung, Legendenkunde, Teleportationszirkel\n6. Grad (1 Platz): Kugel der Unverwundbarkeit\n7. Grad (1 Platz): Prachtvolles Anwesen\n8. Grad (1 Platz): Gedankenschutz\n9. Grad (1 Platz): Vorhersehung"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dolch",
+        "desc": "Nahkampf- oder Fernkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m oder Reichweite 6/18 m, ein Ziel. Treffer: 4 (1d4 + 2) Stichschaden."
+      }
+    ]
+  }
+]

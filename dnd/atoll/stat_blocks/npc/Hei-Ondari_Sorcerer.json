@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Hei-Ondari Zauberer",
+    "size": "Mittelgroß",
+    "type": "Humanoider (Mensch)",
+    "alignment": "neutral",
+    "armor_class": 13,
+    "hit_points": "91 (14d8 + 28)",
+    "speed": "9 m",
+    "strength": 10,
+    "dexterity": 16,
+    "constitution": 14,
+    "intelligence": 12,
+    "wisdom": 14,
+    "charisma": 18,
+    "saving_throws": {
+      "konstitution": 6,
+      "charisma": 8
+    },
+    "skills": {
+      "arkana": 5,
+      "wahrnehmung": 6
+    },
+    "damage_resistances": "Blitz, Donner",
+    "condition_immunities": "geblendet",
+    "senses": "Blindsicht 18 m (blind jenseits dieses Radius), passive Wahrnehmung 16",
+    "languages": "Gemeinsprache, Ursprache",
+    "challenge_rating": 7,
+    "special_abilities": [
+      {
+        "name": "Geblendet",
+        "desc": "Der Zauberer ist dauerhaft geblendet, hat aber Blindsicht."
+      },
+      {
+        "name": "Stürmische Magie",
+        "desc": "Unmittelbar nachdem der Zauberer einen Zauber des 1. Grades oder höher gewirkt hat, kann er als Bonusaktion bis zu 3 Meter fliegen, ohne Gelegenheitsangriffe zu provozieren."
+      },
+      {
+        "name": "Zauberwirken",
+        "desc": "Der Zauberer ist ein Zauberwirker der 10. Stufe. Seine Zauberfähigkeit ist Charisma (Zauberrettungswurf DC 16, +8 zum Treffen mit Zauberangriffen). Er hat die folgenden Zauber vorbereitet:\nZaubertricks (beliebig oft): Wasser formen, Froststrahl, Schockgriff, Windstoß\n1. Grad (4 Plätze): Wasser erschaffen oder zerstören, Nebelwolke, Donnerwelle\n2. Grad (3 Plätze): Windstoß, Eissturm\n3. Grad (3 Plätze): Blitzschlag, Flutwelle\n4. Grad (3 Plätze): Wasser kontrollieren, Eissturm\n5. Grad (2 Plätze): Kältekegel"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dolch",
+        "desc": "Nahkampf- oder Fernkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m oder Reichweite 6/18 m, ein Ziel. Treffer: 5 (1d4 + 3) Stichschaden."
+      },
+      {
+        "name": "Wässriger Griff (Aufladung 5-6)",
+        "desc": "Der Zauberer wählt eine Kreatur, die er innerhalb von 18 Metern sehen kann. Das Ziel muss einen Stärke-Rettungswurf DC 16 bestehen. Bei einem misslungenen Rettungswurf wird das Ziel bis zu 9 Meter näher an den Zauberer herangezogen und erleidet 14 (4d6) Kälteschaden. Bei einem erfolgreichen Rettungswurf wird das Ziel 3 Meter näher an den Zauberer herangezogen und erleidet halb so viel Schaden."
+      }
+    ]
+  }
+]

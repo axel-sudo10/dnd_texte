@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Kappa",
+    "size": "Klein",
+    "type": "Fee",
+    "alignment": "chaotisch neutral",
+    "armor_class": 14,
+    "hit_points": "44 (8d6 + 16)",
+    "speed": "6 m, schwimmen 12 m",
+    "strength": 14,
+    "dexterity": 16,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 12,
+    "charisma": 10,
+    "skills": {
+      "athletik": 4,
+      "heimlichkeit": 5
+    },
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 11",
+    "languages": "Aquan, Sylvan",
+    "challenge_rating": 2,
+    "special_abilities": [
+      {
+        "name": "Amphibisch",
+        "desc": "Der Kappa kann Luft und Wasser atmen."
+      },
+      {
+        "name": "Kopfschale",
+        "desc": "Der Kappa hat eine schalenartige Vertiefung auf seinem Kopf, die mit Wasser gefüllt ist. Wenn der Kappa seinen Zug außerhalb des Wassers beginnt und seine Schale leer ist, erleidet er 1d4 psychischen Schaden und hat einen Nachteil bei Angriffswürfen und Fähigkeitswürfen, bis die Schale mit mindestens einer Tasse Wasser wieder aufgefüllt ist. Eine Kreatur kann die Schale leeren, indem sie den Kappa zu Boden wirft oder eine Aktion verwendet, um einen Geschicklichkeits-Rettungswurf DC 14 zu machen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Kappa macht zwei Klauenangriffe."
+      },
+      {
+        "name": "Klaue",
+        "desc": "Nahkampfwaffenangriff: +4 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 5 (1d6 + 2) Hiebschaden, und das Ziel ist gepackt (Entkommen DC 12). Der Kappa kann nur eine Kreatur gleichzeitig gepackt haben."
+      },
+      {
+        "name": "Ertränken",
+        "desc": "Der Kappa zieht eine Kreatur, die er gepackt hat, ins Wasser. Die Kreatur muss einen Stärke-Rettungswurf DC 12 bestehen oder wird unter Wasser gezogen und gilt als im Bereich des Kappa. Zu Beginn des nächsten Zuges der Kreatur muss sie einen Konstitutions-Rettungswurf DC 12 bestehen oder sie beginnt zu ersticken. Die Kreatur kann den Rettungswurf am Ende jedes ihrer Züge wiederholen."
+      }
+    ]
+  }
+]

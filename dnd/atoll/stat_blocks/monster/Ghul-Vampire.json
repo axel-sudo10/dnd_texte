@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Ghul-Vampir",
+    "size": "Mittelgroß",
+    "type": "Untoter",
+    "alignment": "chaotisch böse",
+    "armor_class": 13,
+    "hit_points": "65 (10d8 + 20)",
+    "speed": "9 m",
+    "strength": 18,
+    "dexterity": 14,
+    "constitution": 14,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 6,
+    "damage_resistances": "nekrotisch",
+    "damage_immunities": "Gift",
+    "condition_immunities": "bezaubert, erschöpft, vergiftet",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 10",
+    "languages": "versteht Gemeinsprache, kann aber nicht sprechen",
+    "challenge_rating": 3,
+    "special_abilities": [
+      {
+        "name": "Gedankenlose Wildheit",
+        "desc": "Der Ghul-Vampir ist immun gegen psychischen Schaden und den Zustand verängstigt."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Der Ghul-Vampir gewinnt zu Beginn seines Zuges 5 Trefferpunkte zurück, wenn er mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn der Ghul-Vampir gleißenden Schaden oder Schaden durch Weihwasser erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges des Ghul-Vampirs nicht."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Ghul-Vampir macht zwei Angriffe: einen mit seinem Biss und einen mit seinen Klauen."
+      },
+      {
+        "name": "Biss",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 11 (2d6 + 4) Stichschaden."
+      },
+      {
+        "name": "Klauen",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 9 (2d4 + 4) Hiebschaden. Wenn das Ziel eine Kreatur außer einem Elf oder Untoten ist, muss es einen Konstitutions-Rettungswurf DC 12 bestehen oder ist für 1 Minute gelähmt. Das Ziel kann den Rettungswurf am Ende jedes seiner Züge wiederholen und den Effekt bei einem Erfolg beenden."
+      },
+      {
+        "name": "Rasende Wut (lädt sich auf, wenn der Ghul-Vampir auf die Hälfte seiner Trefferpunkte oder weniger reduziert wird)",
+        "desc": "Der Ghul-Vampir kann seine Bonusaktion verwenden, um für 1 Minute in eine rasende Wut zu geraten. Während der Wut verursacht er zusätzlichen 1d6 Schaden mit seinen Nahkampfwaffenangriffen."
+      }
+    ]
+  }
+]

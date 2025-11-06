@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Mikoshi",
+    "size": "Mittelgroß",
+    "type": "Untoter",
+    "alignment": "rechtschaffen neutral",
+    "armor_class": 14,
+    "hit_points": "91 (14d8 + 28)",
+    "speed": "0 m, fliegen 12 m (schweben)",
+    "strength": 10,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 11,
+    "wisdom": 16,
+    "charisma": 14,
+    "saving_throws": {
+      "dexterity": 7,
+      "wisdom": 6
+    },
+    "damage_resistances": "Säure, Feuer, Blitz, Donner; Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Kälte, nekrotisch, Gift",
+    "condition_immunities": "bezaubert, erschöpft, verängstigt, gepackt, gelähmt, versteinert, vergiftet, liegend, festgehalten",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 13",
+    "languages": "alle Sprachen, die es im Leben kannte",
+    "challenge_rating": 6,
+    "special_abilities": [
+      {
+        "name": "Körperlose Bewegung",
+        "desc": "Der Mikoshi kann sich durch andere Kreaturen und Objekte bewegen, als ob sie schwieriges Gelände wären. Er erleidet 5 (1d10) Kraftschaden, wenn er seinen Zug in einem Objekt beendet."
+      },
+      {
+        "name": "Ungepanzerte Verteidigung",
+        "desc": "Solange der Mikoshi keine Rüstung trägt und keinen Schild führt, enthält seine RK seinen Weisheitsmodifikator."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Mikoshi macht zwei Ki-verstärkte Schläge."
+      },
+      {
+        "name": "Ki-verstärkte Schläge",
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 11 (1d10 + 4) Kraftschaden."
+      },
+      {
+        "name": "Betäubende Handfläche (Aufladung 5-6)",
+        "desc": "Der Mikoshi macht einen Ki-verstärkten Schlagangriff. Wenn der Angriff trifft, muss das Ziel einen Konstitutions-Rettungswurf DC 14 bestehen oder ist bis zum Ende des nächsten Zuges des Mikoshi betäubt."
+      },
+      {
+        "name": "Ätherischsein",
+        "desc": "Der Mikoshi betritt die Ätherebene von der Materiellen Ebene oder umgekehrt. Er ist auf der Materiellen Ebene sichtbar, während er sich im Grenz-Äther befindet, und umgekehrt, kann aber nichts auf der anderen Ebene beeinflussen oder davon beeinflusst werden."
+      }
+    ],
+    "bonus_actions": [
+        {
+        "name": "Geduldige Verteidigung",
+        "desc": "Der Mikoshi kann die Ausweichen-Aktion als Bonusaktion ausführen."
+        }
+    ]
+  }
+]
