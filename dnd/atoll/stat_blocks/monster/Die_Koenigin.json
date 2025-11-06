@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Die Königin",
+    "size": "Mittelgroß",
+    "type": "Untoter (Gestaltwandler)",
+    "alignment": "rechtschaffen böse",
+    "armor_class": 18,
+    "hit_points": "204 (24d8 + 96)",
+    "speed": "9 m",
+    "strength": 20,
+    "dexterity": 22,
+    "constitution": 18,
+    "intelligence": 18,
+    "wisdom": 16,
+    "charisma": 24,
+    "saving_throws": {
+      "dexterity": 12,
+      "wisdom": 9,
+      "charisma": 13
+    },
+    "skills": {
+      "wahrnehmung": 9,
+      "heimlichkeit": 12
+    },
+    "damage_resistances": "nekrotisch; Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Gift",
+    "condition_immunities": "bezaubert, erschöpft, verängstigt, vergiftet",
+    "senses": "Dunkelsicht 36 m, passive Wahrnehmung 19",
+    "languages": "Abyssisch, Gemeinsprache, Drakonisch, Infernalisch",
+    "challenge_rating": 15,
+    "special_abilities": [
+      {
+        "name": "Gestaltwandler",
+        "desc": "Wenn der Vampir nicht im Sonnenlicht oder fließendem Wasser ist, kann er seine Aktion verwenden, um sich in eine winzige Fledermaus oder eine mittelgroße Nebelwolke zu verwandeln oder in seine wahre Form zurückzukehren. In Fledermausform kann der Vampir nicht sprechen, seine Gehgeschwindigkeit beträgt 1,5 m und er hat eine Fluggeschwindigkeit von 9 m. Seine Werte, außer seiner Größe und Geschwindigkeit, sind unverändert. Alles, was er trägt, verwandelt sich mit ihm, aber nichts, was er trägt. Er kehrt in seine wahre Form zurück, wenn er stirbt. In Nebelform kann der Vampir keine Aktionen ausführen, sprechen oder Objekte manipulieren. Er ist schwerelos, hat eine Fluggeschwindigkeit von 6 m, kann schweben und den Bereich einer feindlichen Kreatur betreten und dort anhalten. Außerdem kann der Nebel, wenn Luft durch einen Raum strömen kann, dies ohne sich zu quetschen tun. Er hat Vorteil bei Stärke-, Geschicklichkeits- und Konstitutions-Rettungswürfen und ist immun gegen allen nichtmagischen Schaden, außer dem Schaden, den er durch Sonnenlicht erleidet."
+      },
+      {
+        "name": "Legendäre Resistenz (3/Tag)",
+        "desc": "Wenn der Vampir einen Rettungswurf nicht besteht, kann er stattdessen wählen, ihn zu bestehen."
+      },
+      {
+        "name": "Nebelhafte Flucht",
+        "desc": "Wenn er außerhalb seines Ruheplatzes auf 0 Trefferpunkte fällt, verwandelt sich der Vampir in eine Nebelwolke (wie in der Eigenschaft Gestaltwandler), anstatt bewusstlos zu werden, vorausgesetzt, er befindet sich nicht im Sonnenlicht oder fließendem Wasser. Wenn er sich nicht verwandeln kann, wird er zerstört. Während er in Nebelform 0 Trefferpunkte hat, kann er nicht in seine Vampirform zurückkehren und muss seinen Ruheplatz innerhalb von 2 Stunden erreichen oder wird zerstört. In Nebelform kann er keine Aktionen ausführen, sprechen oder Objekte manipulieren. Er ist schwerelos, hat eine Fluggeschwindigkeit von 6 m, kann schweben und den Bereich einer feindlichen Kreatur betreten und dort anhalten. Außerdem kann der Nebel, wenn Luft durch einen Raum strömen kann, dies ohne sich zu quetschen tun. Er hat Vorteil bei Stärke-, Geschicklichkeits- und Konstitutions-Rettungswürfen und ist immun gegen allen nichtmagischen Schaden, außer dem Schaden, den er durch Sonnenlicht erleidet. Sobald er sich an seinem Ruheplatz befindet, kehrt er in seine Vampirform zurück. Er ist dann gelähmt, bis er mindestens 1 Trefferpunkt zurückgewinnt. Nachdem er 1 Stunde an seinem Ruheplatz mit 0 Trefferpunkten verbracht hat, gewinnt er 1 Trefferpunkt zurück."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Der Vampir gewinnt zu Beginn seines Zuges 20 Trefferpunkte zurück, wenn er mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn der Vampir gleißenden Schaden oder Schaden durch Weihwasser erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges des Vampirs nicht."
+      },
+      {
+        "name": "Spinnenklettern",
+        "desc": "Der Vampir kann schwierige Oberflächen, einschließlich kopfüber an Decken, ohne einen Fähigkeitswurf erklimmen."
+      },
+      {
+        "name": "Vampirschwächen",
+        "desc": "Der Vampir hat die folgenden Schwächen:\nVerbot. Der Vampir kann eine Wohnung nicht ohne Einladung eines der Bewohner betreten.\nSchaden durch fließendes Wasser. Der Vampir erleidet 20 Säureschaden, wenn er seinen Zug im fließenden Wasser beendet.\nPflock ins Herz. Wenn eine Stichwaffe aus Holz in das Herz des Vampirs getrieben wird, während der Vampir an seinem Ruheplatz handlungsunfähig ist, ist der Vampir gelähmt, bis der Pflock entfernt wird.\nÜberempfindlichkeit gegen Sonnenlicht. Der Vampir erleidet 20 gleißenden Schaden, wenn er seinen Zug im Sonnenlicht beginnt. Im Sonnenlicht hat er einen Nachteil bei Angriffswürfen und Fähigkeitswürfen."
+      },
+      {
+        "name": "Blutaltar",
+        "desc": "Die Königin ist an einen Blutaltar gebunden. Solange der Altar existiert, ist sie unsterblich. Wenn sie auf 0 Trefferpunkte reduziert wird, verwandelt sie sich in Nebel und wird zum Altar gezogen, wo sie sich in 1d4 Stunden neu formiert. Der Altar ist ein großes Objekt mit AC 15, 100 Trefferpunkten und Immunität gegen Gift- und psychischen Schaden. Er gewinnt zu Beginn jedes Zuges der Königin 10 Trefferpunkte zurück, solange er mindestens 1 Trefferpunkt hat."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Vampir macht zwei Angriffe, von denen nur einer ein Bissangriff sein kann."
+      },
+      {
+        "name": "Unbewaffneter Schlag",
+        "desc": "Nahkampfwaffenangriff: +12 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 10 (1d8 + 6) Wuchtschaden. Anstatt Schaden zu verursachen, kann der Vampir das Ziel packen (Entkommen DC 18)."
+      },
+      {
+        "name": "Biss",
+        "desc": "Nahkampfwaffenangriff: +12 zum Treffen, Reichweite 1,5 m, eine gewillte Kreatur oder eine Kreatur, die vom Vampir gepackt, handlungsunfähig oder festgehalten wird. Treffer: 8 (1d6 + 6) Stichschaden plus 14 (4d6) nekrotischer Schaden. Das Trefferpunktemaximum des Ziels wird um einen Betrag in Höhe des erlittenen nekrotischen Schadens reduziert, und der Vampir gewinnt Trefferpunkte in Höhe dieses Betrags zurück. Die Reduzierung hält an, bis das Ziel eine lange Rast beendet. Das Ziel stirbt, wenn dieser Effekt sein Trefferpunktemaximum auf 0 reduziert."
+      }
+    ],
+    "legendary_actions": {
+        "count": 3,
+        "actions": [
+            {
+            "name": "Bewegen",
+            "desc": "Der Vampir bewegt sich mit seiner Geschwindigkeit, ohne Gelegenheitsangriffe zu provozieren."
+            },
+            {
+            "name": "Unbewaffneter Schlag",
+            "desc": "Der Vampir macht einen unbewaffneten Schlag."
+            },
+            {
+            "name": "Blutbefehl (kostet 2 Aktionen)",
+            "desc": "Der Vampir zielt auf einen Humanoiden, den er innerhalb von 9 m sehen kann. Das Ziel muss einen Weisheits-Rettungswurf DC 21 bestehen oder wird für 1 Tag vom Vampir bezaubert. Das bezauberte Ziel betrachtet den Vampir als einen vertrauenswürdigen Freund, dem man gehorchen und den man beschützen muss. Obwohl das Ziel nicht unter der Kontrolle des Vampirs steht, nimmt es die Bitten oder Handlungen des Vampirs auf die günstigste Weise auf, die es kann. Jedes Mal, wenn der Vampir oder die Gefährten des Vampirs dem Ziel etwas Schädliches antun, kann es den Rettungswurf wiederholen und den Effekt bei einem Erfolg beenden. Andernfalls dauert der Effekt 24 Stunden oder bis der Vampir zerstört wird, sich auf einer anderen Existenzebene als das Ziel befindet oder eine Bonusaktion ausführt, um den Effekt zu beenden."
+            }
+        ]
+    }
+  }
+]

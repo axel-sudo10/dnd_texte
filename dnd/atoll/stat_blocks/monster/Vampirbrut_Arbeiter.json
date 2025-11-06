@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Vampirbrut - Arbeiter",
+    "size": "Mittelgroß",
+    "type": "Untoter",
+    "alignment": "rechtschaffen böse",
+    "armor_class": 14,
+    "hit_points": "52 (8d8 + 16)",
+    "speed": "9 m",
+    "strength": 16,
+    "dexterity": 14,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 8,
+    "damage_resistances": "nekrotisch; Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Gift",
+    "condition_immunities": "bezaubert, erschöpft, vergiftet",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 10",
+    "languages": "versteht die Sprachen seines Erschaffers, kann aber nicht sprechen",
+    "challenge_rating": 2,
+    "special_abilities": [
+      {
+        "name": "Gedankenlose Plackerei",
+        "desc": "Solange die Vampirbrut an einer von ihrem Meister zugewiesenen Aufgabe arbeitet, ist sie immun gegen die Zustände bezaubert und verängstigt."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Die Vampirbrut gewinnt zu Beginn ihres Zuges 5 Trefferpunkte zurück, wenn sie mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn die Vampirbrut gleißenden Schaden oder Schaden durch Weihwasser erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges der Vampirbrut nicht."
+      },
+      {
+        "name": "Spinnenklettern",
+        "desc": "Die Vampirbrut kann schwierige Oberflächen, einschließlich kopfüber an Decken, ohne einen Fähigkeitswurf erklimmen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Klauen",
+        "desc": "Nahkampfwaffenangriff: +5 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 7 (1d8 + 3) Hiebschaden. Anstatt Schaden zu verursachen, kann die Vampirbrut das Ziel packen (Entkommen DC 13)."
+      }
+    ]
+  }
+]

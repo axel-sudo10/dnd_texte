@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Menpo Mönch",
+    "size": "Mittelgroß",
+    "type": "Humanoider (Mensch)",
+    "alignment": "rechtschaffen neutral",
+    "armor_class": 16,
+    "hit_points": "44 (8d8 + 8)",
+    "speed": "12 m",
+    "strength": 12,
+    "dexterity": 18,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 16,
+    "charisma": 10,
+    "skills": {
+      "akrobatik": 6,
+      "natur": 2,
+      "wahrnehmung": 5
+    },
+    "senses": "passive Wahrnehmung 15",
+    "languages": "Gemeinsprache",
+    "challenge_rating": 2,
+    "special_abilities": [
+      {
+        "name": "Ungepanzerte Verteidigung",
+        "desc": "Solange der Mönch keine Rüstung trägt und keinen Schild führt, enthält seine RK seinen Weisheitsmodifikator."
+      },
+      {
+        "name": "Angeborenes Zauberwirken",
+        "desc": "Die angeborene Zauberfähigkeit des Mönchs ist Weisheit. Er kann die folgenden Zauber angeboren wirken, ohne materielle Komponenten zu benötigen:\nBeliebig oft: Tierfreundschaft, mit Tieren sprechen"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Mönch macht zwei Angriffe mit seinem unbewaffneten Schlag oder Kurzschwert."
+      },
+      {
+        "name": "Unbewaffneter Schlag",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 8 (1d8 + 4) Wuchtschaden."
+      },
+      {
+        "name": "Kurzschwert",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 7 (1d6 + 4) Stichschaden."
+      },
+      {
+        "name": "Betäubender Schlag (Aufladung 5-6)",
+        "desc": "Der Mönch kann wählen, einen betäubenden Schlag auszuführen. Wenn er trifft, muss das Ziel einen Konstitutions-Rettungswurf DC 13 bestehen oder ist bis zum Ende des nächsten Zuges des Mönchs betäubt."
+      }
+    ]
+  }
+]

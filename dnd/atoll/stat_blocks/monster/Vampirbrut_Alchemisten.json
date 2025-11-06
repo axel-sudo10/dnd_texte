@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Vampirbrut - Alchemist",
+    "size": "Mittelgroß",
+    "type": "Untoter",
+    "alignment": "rechtschaffen böse",
+    "armor_class": 15,
+    "hit_points": "82 (11d8 + 33)",
+    "speed": "9 m",
+    "strength": 16,
+    "dexterity": 16,
+    "constitution": 16,
+    "intelligence": 18,
+    "wisdom": 12,
+    "charisma": 12,
+    "saving_throws": {
+      "dexterity": 6,
+      "intelligence": 7
+    },
+    "skills": {
+      "arkana": 7,
+      "medizin": 4
+    },
+    "damage_resistances": "nekrotisch; Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Gift",
+    "condition_immunities": "bezaubert, erschöpft, vergiftet",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 11",
+    "languages": "Gemeinsprache, Abyssisch, Infernalisch",
+    "challenge_rating": 5,
+    "special_abilities": [
+      {
+        "name": "Regeneration",
+        "desc": "Die Vampirbrut gewinnt zu Beginn ihres Zuges 10 Trefferpunkte zurück, wenn sie mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn die Vampirbrut gleißenden Schaden oder Schaden durch Weihwasser erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges der Vampirbrut nicht."
+      },
+      {
+        "name": "Spinnenklettern",
+        "desc": "Die Vampirbrut kann schwierige Oberflächen, einschließlich kopfüber an Decken, ohne einen Fähigkeitswurf erklimmen."
+      },
+      {
+        "name": "Blutalchemie (3/Tag)",
+        "desc": "Die Vampirbrut kann eine Bonusaktion verwenden, um einen speziellen Trank aus ihrem eigenen Blut herzustellen. Die Vampirbrut erleidet 1d6 nekrotischen Schaden und erzeugt einen der folgenden Tränke: Heiltrank, Giftrank oder einen Säuretrank. Der Trank verliert seine Wirksamkeit nach 1 Stunde."
+      },
+      {
+        "name": "Ätzendes Blut",
+        "desc": "Eine Kreatur, die die Vampirbrut mit einem Nahkampfangriff innerhalb von 1,5 m trifft, erleidet 5 (1d10) Säureschaden."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Die Vampirbrut macht zwei Angriffe, von denen nur einer ein Bissangriff sein kann."
+      },
+      {
+        "name": "Biss",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, eine gewillte Kreatur oder eine Kreatur, die von der Vampirbrut gepackt, handlungsunfähig oder festgehalten wird. Treffer: 6 (1d6 + 3) Stichschaden plus 7 (2d6) nekrotischer Schaden. Das Trefferpunktemaximum des Ziels wird um einen Betrag in Höhe des erlittenen nekrotischen Schadens reduziert, und die Vampirbrut gewinnt Trefferpunkte in Höhe dieses Betrags zurück. Die Reduzierung hält an, bis das Ziel eine lange Rast beendet. Das Ziel stirbt, wenn dieser Effekt sein Trefferpunktemaximum auf 0 reduziert."
+      },
+      {
+        "name": "Klauen",
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 8 (2d4 + 3) Hiebschaden. Anstatt Schaden zu verursachen, kann die Vampirbrut das Ziel packen (Entkommen DC 13)."
+      }
+    ]
+  }
+]

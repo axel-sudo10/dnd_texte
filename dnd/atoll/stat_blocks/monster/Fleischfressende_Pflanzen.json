@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Leichenblume",
+    "size": "Groß",
+    "type": "Pflanze",
+    "alignment": "chaotisch böse",
+    "armor_class": 12,
+    "hit_points": "127 (15d10 + 45)",
+    "speed": "6 m, klettern 6 m",
+    "strength": 14,
+    "dexterity": 14,
+    "constitution": 16,
+    "intelligence": 7,
+    "wisdom": 15,
+    "charisma": 3,
+    "saving_throws": {
+      "constitution": 6
+    },
+    "condition_immunities": "geblendet, taub, vergiftet",
+    "senses": "Blindsicht 36 m (blind jenseits dieses Radius), passive Wahrnehmung 12",
+    "languages": "-",
+    "challenge_rating": 8,
+    "special_abilities": [
+      {
+        "name": "Leichen",
+        "desc": "Bei der ersten Begegnung enthält eine Leichenblume die Leichen von 1d6 + 3 Humanoiden. Eine Leichenblume kann die Überreste von bis zu neun toten Humanoiden aufnehmen. Diese Überreste haben vollständige Deckung gegen Angriffe und andere Effekte außerhalb der Leichenblume. Wenn die Leichenblume stirbt, können die Leichen in ihr herausgezogen werden."
+      },
+      {
+        "name": "Spinnenklettern",
+        "desc": "Die Leichenblume kann schwierige Oberflächen, einschließlich kopfüber an Decken, ohne einen Fähigkeitswurf erklimmen."
+      },
+      {
+        "name": "Gestank des Todes",
+        "desc": "Jede Kreatur, die ihren Zug innerhalb von 3 m von der Leichenblume oder einem ihrer Zombies beginnt, muss einen Konstitutions-Rettungswurf DC 14 bestehen, es sei denn, die Kreatur ist ein Konstrukt oder untot. Bei einem misslungenen Rettungswurf ist die Kreatur bis zum Ende des Zuges handlungsunfähig. Kreaturen, die gegen Giftschaden oder den vergifteten Zustand immun sind, bestehen diesen Rettungswurf automatisch. Bei einem erfolgreichen Rettungswurf ist die Kreatur für 24 Stunden immun gegen den Gestank aller Leichenblumen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Die Leichenblume macht drei Tentakelangriffe."
+      },
+      {
+        "name": "Tentakel",
+        "desc": "Nahkampfwaffenangriff: +5 zum Treffen, Reichweite 3 m, ein Ziel. Treffer: 9 (2d6 + 2) Wuchtschaden, und das Ziel muss einen Konstitutions-Rettungswurf DC 14 bestehen oder 14 (4d6) Giftschaden erleiden."
+      },
+      {
+        "name": "Die Toten ernten",
+        "desc": "Die Leichenblume ergreift einen ungesicherten toten Humanoiden innerhalb von 3 m von ihr und stopft die Leiche in sich hinein, zusammen mit jeglicher Ausrüstung, die die Leiche trägt. Die Überreste können mit der Eigenschaft Leichen verwendet werden."
+      }
+    ],
+    "bonus_actions": [
+        {
+        "name": "Verdauen",
+        "desc": "Solange sie mindestens eine humanoide Leiche in ihrem Körper hat, kann die Leichenblume eine Bonusaktion verwenden, um eine humanoide Leiche zu verdauen. Sie gewinnt sofort 11 (2d10) Trefferpunkte zurück. Nichts von dem verdauten Körper bleibt übrig. Jede Ausrüstung auf der Leiche wird aus der Leichenblume in ihrem Bereich ausgestoßen."
+        },
+        {
+        "name": "Reanimieren",
+        "desc": "Solange sie mindestens eine humanoide Leiche in ihrem Körper hat, kann die Leichenblume eine Bonusaktion verwenden, um einen toten Humanoiden in ihrem Körper zu animieren und ihn in einen Zombie zu verwandeln. Der Zombie erscheint in einem unbesetzten Bereich innerhalb von 1,5 m von der Leichenblume und handelt unmittelbar nach ihr in der Initiative-Reihenfolge. Der Zombie handelt als Verbündeter der Leichenblume, steht aber nicht unter ihrer Kontrolle, und der Gestank der Blume haftet an ihm (siehe die Eigenschaft Gestank des Todes)."
+        }
+    ]
+  },
+  {
+    "name": "Schlingerhügel",
+    "size": "Groß",
+    "type": "Pflanze",
+    "alignment": "unangepasst",
+    "armor_class": 15,
+    "hit_points": "136 (16d10 + 48)",
+    "speed": "6 m, schwimmen 6 m",
+    "strength": 18,
+    "dexterity": 8,
+    "constitution": 16,
+    "intelligence": 5,
+    "wisdom": 10,
+    "charisma": 5,
+    "skills": {
+      "heimlichkeit": 2
+    },
+    "damage_resistances": "Kälte, Feuer",
+    "damage_immunities": "Blitz",
+    "condition_immunities": "geblendet, taub, erschöpft",
+    "senses": "Blindsicht 18 m (blind jenseits dieses Radius), passive Wahrnehmung 10",
+    "languages": "-",
+    "challenge_rating": 5,
+    "special_abilities": [
+      {
+        "name": "Blitzabsorption",
+        "desc": "Immer wenn der Schlingerhügel Blitzschaden erleidet, erleidet er keinen Schaden und erhält stattdessen eine Anzahl von Trefferpunkten in Höhe des verursachten Blitzschadens zurück."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Schlingerhügel macht zwei Schlagangriffe. Wenn beide Angriffe ein mittelgroßes oder kleineres Ziel treffen, wird das Ziel gepackt (Entkommen DC 14), und der Schlingerhügel verwendet sein Verschlingen darauf."
+      },
+      {
+        "name": "Schlag",
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 13 (2d8 + 4) Wuchtschaden."
+      },
+      {
+        "name": "Verschlingen",
+        "desc": "Der Schlingerhügel verschlingt eine von ihm gepackte mittelgroße oder kleinere Kreatur. Das verschlungene Ziel ist geblendet, festgehalten und kann nicht atmen, und es muss zu Beginn jedes Zuges des Hügels einen Konstitutions-Rettungswurf DC 14 bestehen oder 13 (2d8 + 4) Wuchtschaden erleiden. Wenn sich der Hügel bewegt, bewegt sich das verschlungene Ziel mit ihm. Der Hügel kann nur eine Kreatur gleichzeitig verschlungen haben."
+      }
+    ]
+  },
+  {
+    "name": "Riesen-Fliegenfalle",
+    "size": "Groß",
+    "type": "Pflanze",
+    "alignment": "unangepasst",
+    "armor_class": 13,
+    "hit_points": "52 (7d10 + 14)",
+    "speed": "3 m",
+    "strength": 16,
+    "dexterity": 10,
+    "constitution": 14,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 3,
+    "senses": "Blindsicht 9 m (blind jenseits dieses Radius), passive Wahrnehmung 10",
+    "languages": "-",
+    "challenge_rating": 2,
+    "actions": [
+      {
+        "name": "Biss",
+        "desc": "Nahkampfwaffenangriff: +5 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 10 (2d6 + 3) Stichschaden, und das Ziel ist gepackt (Entkommen DC 13). Bis dieser Griff endet, ist das Ziel festgehalten, und die Fliegenfalle kann kein anderes Ziel beißen."
+      },
+      {
+        "name": "Schlucken",
+        "desc": "Die Fliegenfalle macht einen Bissangriff gegen ein mittelgroßes oder kleineres Ziel, das sie gepackt hat. Wenn der Angriff trifft, wird das Ziel verschluckt und der Griff endet. Das verschluckte Ziel ist geblendet und festgehalten, es hat vollständige Deckung gegen Angriffe und andere Effekte außerhalb der Fliegenfalle und es erleidet zu Beginn jedes Zuges der Fliegenfalle 7 (2d6) Säureschaden. Die Fliegenfalle kann nur ein Ziel gleichzeitig verschluckt haben. Wenn die Fliegenfalle stirbt, ist eine verschluckte Kreatur nicht länger von ihr festgehalten und kann aus der Leiche entkommen, indem sie 1,5 m Bewegung verbraucht und liegend austritt."
+      }
+    ]
+  }
+]

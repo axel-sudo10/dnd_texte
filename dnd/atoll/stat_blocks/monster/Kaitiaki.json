@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Kaitiaki - Flusswächter",
+    "size": "Riesig",
+    "type": "Elementar",
+    "alignment": "neutral",
+    "armor_class": 16,
+    "hit_points": "189 (18d12 + 72)",
+    "speed": "9 m, schwimmen 27 m",
+    "strength": 22,
+    "dexterity": 14,
+    "constitution": 18,
+    "intelligence": 10,
+    "wisdom": 16,
+    "charisma": 12,
+    "damage_resistances": "Säure; Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Gift",
+    "condition_immunities": "erschöpft, gepackt, gelähmt, versteinert, vergiftet, liegend, festgehalten, bewusstlos",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 13",
+    "languages": "Aquan, Gemeinsprache",
+    "challenge_rating": 10,
+    "special_abilities": [
+      {
+        "name": "Legendäre Resistenz (3/Tag)",
+        "desc": "Wenn der Kaitiaki einen Rettungswurf nicht besteht, kann er stattdessen wählen, ihn zu bestehen."
+      },
+      {
+        "name": "Wasserform",
+        "desc": "Der Kaitiaki kann den Bereich einer feindlichen Kreatur betreten und dort anhalten. Er kann sich durch einen Raum bewegen, der nur 2,5 cm breit ist, ohne sich zu quetschen."
+      },
+      {
+        "name": "Flusswächter",
+        "desc": "Der Kaitiaki ist an einen bestimmten Fluss oder ein Gewässer gebunden. Er kann sich nicht mehr als 90 Meter davon entfernen. In seinem gebundenen Wasser hat er Vorteil bei allen Angriffswürfen, Fähigkeitswürfen und Rettungswürfen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Kaitiaki macht zwei Schlagangriffe."
+      },
+      {
+        "name": "Schlag",
+        "desc": "Nahkampfwaffenangriff: +10 zum Treffen, Reichweite 3 m, ein Ziel. Treffer: 19 (3d8 + 6) Wuchtschaden."
+      },
+      {
+        "name": "Überwältigen (Aufladung 4-6)",
+        "desc": "Jede Kreatur im Bereich des Kaitiaki muss einen Stärke-Rettungswurf DC 18 bestehen. Bei einem Fehlschlag erleidet ein Ziel 19 (3d8 + 6) Wuchtschaden. Wenn es riesig oder kleiner ist, wird es auch gepackt (Entkommen DC 18). Bis dieser Griff endet, ist das Ziel festgehalten und kann nicht atmen, es sei denn, es kann Wasser atmen. Wenn der Rettungswurf erfolgreich ist, wird das Ziel aus dem Bereich des Kaitiaki gestoßen. Der Kaitiaki kann eine riesige Kreatur oder bis zu zwei große oder vier mittelgroße oder kleinere Kreaturen gleichzeitig packen. Zu Beginn jedes Zuges des Kaitiaki erleidet jedes von ihm gepackte Ziel 19 (3d8 + 6) Wuchtschaden. Eine Kreatur innerhalb von 1,5 m des Kaitiaki kann eine Kreatur oder einen Gegenstand aus ihm herausziehen, indem sie eine Aktion ausführt, um einen Stärke-Wurf DC 18 zu machen und erfolgreich ist."
+      }
+    ],
+    "legendary_actions": {
+        "count": 3,
+        "actions": [
+            {
+            "name": "Schlag",
+            "desc": "Der Kaitiaki macht einen Schlagangriff."
+            },
+            {
+            "name": "Whirlpool erschaffen (kostet 2 Aktionen)",
+            "desc": "Der Kaitiaki wählt einen Punkt in seinem gebundenen Wasser, den er innerhalb von 30 m sehen kann. Ein Whirlpool mit einem Radius von 3 m und einer Tiefe von 9 m bildet sich zentriert auf diesem Punkt. Jede Kreatur im Bereich des Whirlpools muss einen Stärke-Rettungswurf DC 18 bestehen. Bei einem misslungenen Rettungswurf wird eine Kreatur 3 m in Richtung des Zentrums des Whirlpools gezogen und erleidet 13 (2d12) Wuchtschaden. Bei einem erfolgreichen Rettungswurf wird die Kreatur nicht bewegt und erleidet halben Schaden. Eine Kreatur kann aus dem Whirlpool schwimmen, indem sie einen Stärke- (Athletik-) Wurf DC 18 macht."
+            },
+            {
+            "name": "Zorn des Flusses (kostet 3 Aktionen)",
+            "desc": "Der Kaitiaki lässt eine massive Welle auf einen 18-Meter-Kegelbereich niederprasseln. Jede Kreatur in diesem Bereich muss einen Geschicklichkeits-Rettungswurf DC 18 bestehen. Bei einem misslungenen Rettungswurf erleidet eine Kreatur 28 (8d6) Wuchtschaden und wird zu Boden geworfen. Bei einem erfolgreichen Rettungswurf erleidet eine Kreatur halb so viel Schaden und wird nicht zu Boden geworfen."
+            }
+        ]
+    }
+  }
+]

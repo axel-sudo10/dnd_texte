@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Nurikabe",
+    "size": "Groß",
+    "type": "Elementar",
+    "alignment": "unangepasst",
+    "armor_class": 18,
+    "hit_points": "102 (12d10 + 36)",
+    "speed": "3 m",
+    "strength": 18,
+    "dexterity": 6,
+    "constitution": 16,
+    "intelligence": 5,
+    "wisdom": 13,
+    "charisma": 10,
+    "damage_resistances": "Wuchtschaden, Stichschaden und Hiebschaden von nichtmagischen Angriffen",
+    "damage_immunities": "Gift, psychisch",
+    "condition_immunities": "bezaubert, erschöpft, verängstigt, gepackt, gelähmt, versteinert, vergiftet, liegend, festgehalten",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 11",
+    "languages": "-",
+    "challenge_rating": 5,
+    "special_abilities": [
+      {
+        "name": "Falsches Aussehen",
+        "desc": "Solange der Nurikabe bewegungslos bleibt, ist er von einem normalen Mauerabschnitt nicht zu unterscheiden."
+      },
+      {
+        "name": "Unpassierbar",
+        "desc": "Der Nurikabe kann sich durch andere Kreaturen und Objekte bewegen, als ob sie schwieriges Gelände wären. Er erleidet 5 (1d10) Kraftschaden, wenn er seinen Zug in einem Objekt beendet. Andere Kreaturen können sich nicht durch den Nurikabe bewegen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Schlag",
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 13 (2d8 + 4) Wuchtschaden."
+      },
+      {
+        "name": "Mauer des Pfades (Aufladung 5-6)",
+        "desc": "Der Nurikabe dehnt sich magisch aus. Für 1 Minute oder bis der Nurikabe auf 0 Trefferpunkte reduziert ist, wird er zu einer Steinmauer von 18 Metern Länge, 4,5 Metern Höhe und 30 cm Dicke. Die Mauer bietet vollständige Deckung. Eine Kreatur kann die Mauer beschädigen (AC 18). Für jeweils 25 verursachten Schaden an der Mauer verringert sich ihre Länge um 3 Meter. Wenn die Länge der Mauer auf 0 reduziert ist, wird der Nurikabe zerstört."
+      }
+    ],
+    "reactions": [
+        {
+        "name": "Umlenken",
+        "desc": "Wenn eine Kreatur, die der Nurikabe sehen kann, ihn mit einem Angriff trifft, kann der Nurikabe den Angreifer zwingen, einen Weisheits-Rettungswurf DC 15 zu machen. Bei einem misslungenen Rettungswurf wird der Angreifer magisch an einen unbesetzten Ort nach Wahl des Nurikabe innerhalb von 9 Metern vom Nurikabe teleportiert."
+        }
+    ]
+  }
+]

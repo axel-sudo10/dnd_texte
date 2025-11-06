@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cocomora-Schwarm",
+    "size": "Mittelgroß",
+    "type": "Schwarm von winzigen Monstrositäten",
+    "alignment": "chaotisch neutral",
+    "armor_class": 12,
+    "hit_points": "22 (5d8)",
+    "speed": "6 m, klettern 6 m",
+    "strength": 8,
+    "dexterity": 14,
+    "constitution": 10,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 12,
+    "damage_resistances": "Wuchtschaden, Stichschaden, Hiebschaden",
+    "condition_immunities": "bezaubert, verängstigt, gepackt, gelähmt, versteinert, liegend, festgehalten, betäubt",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 10",
+    "languages": "-",
+    "challenge_rating": "1/2",
+    "special_abilities": [
+      {
+        "name": "Schwarm",
+        "desc": "Der Schwarm kann den Bereich einer anderen Kreatur besetzen und umgekehrt, und der Schwarm kann sich durch jede Öffnung bewegen, die groß genug für eine winzige Cocomora ist. Der Schwarm kann keine Trefferpunkte zurückgewinnen oder temporäre Trefferpunkte erhalten."
+      },
+      {
+        "name": "Ablenkende Präsenz",
+        "desc": "Jede Kreatur, die ihren Zug im Bereich des Schwarms beginnt, muss einen Weisheits-Rettungswurf DC 11 bestehen oder hat bis zum Beginn ihres nächsten Zuges einen Nachteil bei Angriffswürfen."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Angriffe",
+        "desc": "Nahkampfwaffenangriff: +4 zum Treffen, Reichweite 0 m, ein Ziel im Bereich des Schwarms. Treffer: 5 (2d4) Stichschaden oder 2 (1d4) Stichschaden, wenn der Schwarm die Hälfte seiner Trefferpunkte oder weniger hat."
+      },
+      {
+        "name": "Unbeholfener Diebstahl",
+        "desc": "Der Schwarm versucht, einen kleinen, unbeaufsichtigten Gegenstand von einer Kreatur in seinem Bereich zu stehlen. Die Kreatur muss einen Geschicklichkeits-Rettungswurf DC 11 bestehen, sonst wird ein zufälliger, kleiner Gegenstand (wie ein Trank, ein Dolch oder ein Geldbeutel) gestohlen. Der Schwarm bewegt sich dann sofort mit seiner Geschwindigkeit von der Kreatur weg."
+      }
+    ]
+  }
+]

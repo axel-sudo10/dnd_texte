@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Blutkoloss",
+    "size": "Mittelgroß",
+    "type": "Konstrukt",
+    "alignment": "neutral böse",
+    "armor_class": 12,
+    "hit_points": "93 (11d8 + 44)",
+    "speed": "9 m",
+    "strength": 19,
+    "dexterity": 9,
+    "constitution": 18,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 5,
+    "damage_immunities": "Gift",
+    "condition_immunities": "bezaubert, erschöpft, verängstigt, gelähmt, versteinert, vergiftet",
+    "senses": "Dunkelsicht 18 m, passive Wahrnehmung 10",
+    "languages": "versteht die Sprachen seines Erschaffers, kann aber nicht sprechen",
+    "challenge_rating": 5,
+    "special_abilities": [
+      {
+        "name": "Blutreserve",
+        "desc": "Als Bonusaktion kann ein Vampir innerhalb von 1,5 m des Blutkolosses dessen Blut trinken. Der Vampir erhält 2d8 Trefferpunkte zurück, und der Blutkoloss erleidet 2d8 nekrotischen Schaden."
+      },
+      {
+        "name": "Unveränderliche Form",
+        "desc": "Der Golem ist immun gegen jeden Zauber oder Effekt, der seine Form verändern würde."
+      },
+      {
+        "name": "Magieresistenz",
+        "desc": "Der Golem hat Vorteil bei Rettungswürfen gegen Zauber und andere magische Effekte."
+      },
+      {
+        "name": "Magische Waffen",
+        "desc": "Die Waffenangriffe des Golems sind magisch."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mehrfachangriff",
+        "desc": "Der Golem macht zwei Schlagangriffe."
+      },
+      {
+        "name": "Schlag",
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 13 (2d8 + 4) Wuchtschaden."
+      },
+      {
+        "name": "Blutsauger",
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, eine Kreatur, die Blut hat. Treffer: 13 (2d8 + 4) nekrotischer Schaden, und der Blutkoloss erhält Trefferpunkte in Höhe des verursachten Schadens zurück."
+      }
+    ]
+  }
+]
