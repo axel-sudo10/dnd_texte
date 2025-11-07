@@ -26,7 +26,7 @@
       },
       {
         "name": "Regeneration",
-        "desc": "Der Ghul-Vampir gewinnt zu Beginn seines Zuges 5 Trefferpunkte zurück, wenn er mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn der Ghul-Vampir gleißenden Schaden oder Schaden durch Weihwasser erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges des Ghul-Vampirs nicht."
+        "desc": "Der Ghul-Vampir gewinnt zu Beginn seines Zuges 5 Trefferpunkte zurück, wenn er mindestens 1 Trefferpunkt hat und sich nicht im Sonnenlicht oder fließendem Wasser befindet. Wenn der Ghul-Vampir gleißenden Schaden erleidet, funktioniert diese Eigenschaft zu Beginn des nächsten Zuges des Ghul-Vampirs nicht."
       }
     ],
     "actions": [
@@ -40,7 +40,7 @@
       },
       {
         "name": "Klauen",
-        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 9 (2d4 + 4) Hiebschaden. Wenn das Ziel eine Kreatur außer einem Elf oder Untoten ist, muss es einen Konstitutions-Rettungswurf DC 12 bestehen oder ist für 1 Minute gelähmt. Das Ziel kann den Rettungswurf am Ende jedes seiner Züge wiederholen und den Effekt bei einem Erfolg beenden."
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 9 (2d8 + 4) Hiebschaden. Wenn das Ziel eine Kreatur außer einem Elf oder Untoten ist, muss es einen Konstitutions-Rettungswurf DC 12 bestehen oder ist für 1 Minute gelähmt. Das Ziel kann den Rettungswurf am Ende jedes seiner Züge wiederholen und den Effekt bei einem Erfolg beenden."
       },
       {
         "name": "Rasende Wut (lädt sich auf, wenn der Ghul-Vampir auf die Hälfte seiner Trefferpunkte oder weniger reduziert wird)",

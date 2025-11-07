@@ -56,7 +56,7 @@
       },
       {
         "name": "Klauen",
-        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 8 (2d4 + 3) Hiebschaden. Anstatt Schaden zu verursachen, kann die Vampirbrut das Ziel packen (Entkommen DC 13)."
+        "desc": "Nahkampfwaffenangriff: +6 zum Treffen, Reichweite 1,5 m, eine Kreatur. Treffer: 8 (2d8 + 2) Hiebschaden. Anstatt Schaden zu verursachen, kann die Vampirbrut das Ziel packen (Entkommen DC 13)."
       }
     ]
   }

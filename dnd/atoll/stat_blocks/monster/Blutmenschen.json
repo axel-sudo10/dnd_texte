@@ -43,11 +43,11 @@
       },
       {
         "name": "Schlag",
-        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 13 (2d8 + 4) Wuchtschaden."
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, ein Ziel. Treffer: 13 (2d6) Wuchtschaden."
       },
       {
         "name": "Blutsauger",
-        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, eine Kreatur, die Blut hat. Treffer: 13 (2d8 + 4) nekrotischer Schaden, und der Blutkoloss erhält Trefferpunkte in Höhe des verursachten Schadens zurück."
+        "desc": "Nahkampfwaffenangriff: +7 zum Treffen, Reichweite 1,5 m, eine Kreatur, die Blut hat. Treffer: 13 (2d6) nekrotischer Schaden, und der Blutkoloss erhält Trefferpunkte in Höhe des verursachten Schadens zurück."
       }
     ]
   }
