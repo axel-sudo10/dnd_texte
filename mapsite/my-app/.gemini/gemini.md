@@ -22,8 +22,6 @@ PocketBase: https://pocketbase.io/docs
 
 Tailwind Grid Row: https://tailwindcss.com/docs/grid-row
 
-Leaflet: https://leafletjs.com/
-
 Lokale ZIPs:
 C:\Users\phuge\Desktop\dnd_texte → PocketBase + Leaflet
 → zuerst entpacken und READMEs prüfen
