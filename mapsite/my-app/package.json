@@ -24,6 +24,7 @@
     "vite": "^7.1.10"
   },
   "dependencies": {
-    "maplibre-gl": "^5.12.0"
+    "maplibre-gl": "^5.12.0",
+    "pocketbase": "^0.26.3"
   }
 }
