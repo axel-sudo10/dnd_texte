@@ -47,7 +47,7 @@
 
 <style>
     .map-wrap {
-        width: 100%;
-        height: calc(100vh - 77px);
+        width: 100svw;
+        height: 100%;
     }
 </style>
