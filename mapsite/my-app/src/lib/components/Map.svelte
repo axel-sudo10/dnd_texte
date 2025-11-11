@@ -15,7 +15,9 @@
                 layers: [],
             },
             center: [0, 0],
-            zoom: 1,
+            zoom: 4,
+            renderWorldCopies: false,
+            maxZoom: 6,
         });
         map.on("load", () => {
             map.addSource("fantasy-map", {
