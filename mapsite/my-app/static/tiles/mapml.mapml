@@ -1,6 +1,6 @@
 <mapml>
     <head>
-        <title>atoll_map.png</title>
+        <title>atoll_map_georef_20x.tif</title>
         <base href="./" />
         <meta charset="utf-8" />
         <meta content="text/mapml;projection=OSMTILE" http-equiv="Content-Type" />
@@ -14,8 +14,8 @@
     <body>
         <extent units="OSMTILE">
             <input name="z" type="zoom" value="6" min="0" max="6" />
-            <input name="x" type="location" axis="column" units="tilematrix" min="34" max="34" />
-            <input name="y" type="location" axis="row" units="tilematrix" min="21" max="21" />
+            <input name="x" type="location" axis="column" units="tilematrix" min="22" max="41" />
+            <input name="y" type="location" axis="row" units="tilematrix" min="22" max="38" />
             <link tref="./{z}/{x}/{y}.png" rel="tile" />
             <!--<link tref="http://localhost:8080/myservice/wmts?layer=MYLAYER&amp;style=&amp;tilematrixset=OSMTILE&amp;service=WMTS&amp;request=GetTile&amp;version=1.0.0&amp;tilematrix={z}&amp;TileCol={x}&amp;TileRow={y}&amp;format=image/png" rel="tile" />-->
             <!--
