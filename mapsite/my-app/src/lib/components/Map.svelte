@@ -16,25 +16,19 @@
             },
             center: [0, 0],
             zoom: 1,
-            renderWorldCopies: false,
         });
-
         map.on("load", () => {
-            map.addSource("atoll-map", {
-                type: "image",
-                url: "/atoll.png",
-                coordinates: [
-                    [-180, 85],
-                    [180, 85],
-                    [180, -85],
-                    [-180, -85],
-                ],
+            map.addSource("fantasy-map", {
+                type: "raster",
+                tiles: ["/tiles/{z}/{x}/{y}.png"],
+                tileSize: 256,
+                maxzoom: 5,
             });
 
             map.addLayer({
-                id: "atoll-layer",
+                id: "fantasy-layer",
                 type: "raster",
-                source: "atoll-map",
+                source: "fantasy-map",
                 paint: {
                     "raster-fade-duration": 0,
                 },
