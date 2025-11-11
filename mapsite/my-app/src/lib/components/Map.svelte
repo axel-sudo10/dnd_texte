@@ -1,47 +1,57 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import type { Map as LeafletMap } from "leaflet";
+    import maplibregl from "maplibre-gl";
+    import "maplibre-gl/dist/maplibre-gl.css";
 
     let mapContainer: HTMLDivElement;
-    let map: LeafletMap;
+    let map: maplibregl.Map;
 
-    onMount(async () => {
-        // Import CSS
-        import("leaflet/dist/leaflet.css");
-        // Dynamically import Leaflet only on the client-side
-        const L = (await import("leaflet")).default;
-
-        // Since the image is 2500x2500, we can set the bounds accordingly.
-        const bounds: L.LatLngBoundsExpression = [
-            [0, 0],
-            [2500, 2500],
-        ];
-
-        // Create the map
-        map = L.map(mapContainer, {
-            crs: L.CRS.Simple,
-            minZoom: 0,
-            maxBounds: bounds, // Restrict view to the image bounds
+    onMount(() => {
+        map = new maplibregl.Map({
+            container: mapContainer,
+            style: {
+                version: 8,
+                sources: {},
+                layers: [],
+            },
+            center: [0, 0],
+            zoom: 1,
+            renderWorldCopies: false,
         });
 
-        // Add the image overlay
-        L.imageOverlay("/atoll.png", bounds).addTo(map);
+        map.on("load", () => {
+            map.addSource("atoll-map", {
+                type: "image",
+                url: "/atoll.png",
+                coordinates: [
+                    [-180, 85],
+                    [180, 85],
+                    [180, -85],
+                    [-180, -85],
+                ],
+            });
 
-        // Fit the map to the image bounds
-        map.fitBounds(bounds);
+            map.addLayer({
+                id: "atoll-layer",
+                type: "raster",
+                source: "atoll-map",
+                paint: {
+                    "raster-fade-duration": 0,
+                },
+            });
+        });
 
-        // Invalidate map size after component is mounted and rendered
-        setTimeout(() => {
-            map.invalidateSize();
-        }, 0);
+        return () => {
+            map.remove();
+        };
     });
 </script>
 
-<div bind:this={mapContainer} class="map-container"></div>
+<div class="map-wrap" bind:this={mapContainer}></div>
 
 <style>
-    .map-container {
-        width: 100svw;
-        height: 100svh; /* Use vh for viewport height */
+    .map-wrap {
+        width: 100%;
+        height: calc(100vh - 77px);
     }
 </style>
